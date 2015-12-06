@@ -1,0 +1,78 @@
+body {
+		background-image: url(../images/background.jpg);
+		font-family: 'Quicksand', sans-serif;
+}
+
+
+.main {
+		background-color: white;
+		background-color: rgba(255,255,255,0.7);
+		width: 600px;
+		margin: 0 auto;
+		padding: 30px;
+		border-radius: 20px;
+		box-shadow: 0 0 20px 20px rgba(255,255,255,0.6);
+}
+
+
+
+
+
+
+
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+		text-align: center;
+		text-transform: uppercase;
+		letter-spacing: 10px;
+		font-weight: normal;
+}
+
+h3:hover{
+	color: #666666;
+	text-decoration: underline;
+	cursor: pointer;
+
+
+}
+
+
+/* CSS comment */
+
+img {
+	width: 200px;
+	margin: 0 auto;
+	display: block;
+	border: 5px solid white;
+	border-radius: 20px;
+}
+
+
+p,
+ul,
+ol {
+	line-height: 1.5;
+	list-style: none;
+	padding-left: 0;
+}
+
+.best {
+	padding-left: 40px;
+}
+
+a {
+	color: #cc0099;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+	transform: rotateZ(180deg);
+	display: inline-block;
+}
+}
